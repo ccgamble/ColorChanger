@@ -1,15 +1,12 @@
-var randomBtn = $('#random');
-var resetBtn = $('#reset');
-
-resetBtn.on('click', function() {
+$('#reset').on('click', function() {
   $('body').css('background-color', '#FFF')
 });
 
-randomBtn.on('click', function() {
+$('#random').on('click', function generateRandomColor() {
+  $('body').css('background-color', randomColor());
 
-  $('body').css('background-color', randomColor())
 });
 
 function randomColor() {
-  return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+  return 'rgb(' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 254)) + ')';
 }

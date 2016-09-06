@@ -2,7 +2,7 @@ $('#reset').on('click', function() {
   $('body').css('background-color', '#FFF')
 });
 
-$('#random').on('click', function generateRandomColor() {
+$('#random').on('click', function() {
   $('body').css('background-color', randomColor());
 
 });

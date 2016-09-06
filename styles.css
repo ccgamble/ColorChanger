@@ -8,6 +8,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  min-height:170px;
   width: 550px;
   margin: auto;
 }
@@ -36,9 +37,9 @@ body {
 @media screen and (max-width: 550px) {
   .container {
     flex-direction: column;
-    height: 50vh;
+    height: 250px;
     width: 100vw;
-    margin-top: 70px;
+    margin: 20vh 0 20vh 0;
   }
 
   #reset {

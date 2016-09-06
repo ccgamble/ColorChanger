@@ -1,0 +1,16 @@
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold 700;
+  color: white;
+  width: 200px;
+  height: 100px;
+}
+
+#random{
+  background-color: #E5B6D5;
+  border-bottom-color: #B2479A;
+  border-top-color: #B2479A;
+  border-right-color: #CC7FB5;
+  border-left-color: #CC7FB5;
+  border-width: thick;
+}

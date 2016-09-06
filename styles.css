@@ -1,13 +1,17 @@
 body {
   background-color: white;
+}
+
+.container {
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-
-
+  width: 550px;
+  margin: auto;
 }
+
 
 .btn {
   font-family: 'Open Sans', sans-serif;
@@ -22,8 +26,6 @@ body {
   border-bottom-style: inset;
   font-size: 26px;
   letter-spacing: 4px;
-
-
 }
 
 .btn:hover {
@@ -31,16 +33,17 @@ body {
   border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
 
-@media screen and (max-width: 450px) {
-  body {
+@media screen and (max-width: 550px) {
+  .container {
     flex-direction: column;
     height: 50vh;
+    width: 100vw;
+    margin-top: 70px;
   }
 
   #reset {
     height: 50px;
     font-size: 20px;
     letter-spacing: 2px;
-
   }
 }

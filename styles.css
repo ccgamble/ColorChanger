@@ -26,6 +26,7 @@ body {
   border-bottom-style: inset;
   font-size: 26px;
   letter-spacing: 3px;
+  outline: none;
 }
 
 .btn:hover {

@@ -8,5 +8,5 @@ $('#random').on('click', function() {
 });
 
 function randomColor() {
-  return 'rgb(' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 255)) + ',' + (Math.floor(Math.random() * 254)) + ')';
+  return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 255)) + ')';
 }
